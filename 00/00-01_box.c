@@ -3,10 +3,12 @@
 int main (void)
 {
     initscr();
-    addstr("Goodbye, cruel world!");
+
+    box(stdscr, '*', '*');
     refresh();
     getch();
 
     endwin();
+
     return 0;
 }

@@ -16,4 +16,7 @@ Programming](https://github.com/abrantesasf/ncurses/blob/master/imagens/gookins_
 Recursos do livro (errata, códigos, etc.) podem ser encontrados na [página
 oficial do autor](https://c-for-dummies.com/ncurses/).
 
+O código fonte oficial pode ser obtido em [NCURSES: New
+Curses](https://invisible-island.net/ncurses/ncurses.html).
+
 A programação em modo texto ainda não está morta!
