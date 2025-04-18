@@ -36,6 +36,7 @@ void center (int row, char *title)
     //     d) Verificar se offset será negativo;
     //     e) ...
     int len, offset, y, x;
+    len = offset = y = x = 0;
     getmaxyx(stdscr, y, x);
     len = strlen(title);
     offset = (x - len)/2;

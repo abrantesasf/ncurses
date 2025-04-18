@@ -8,7 +8,7 @@
 # ******************************************************************************
 # Variáveis importantes para ncursesw:
 CC=gcc
-CFLAGS=-D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600
+CFLAGS=-std=c17 -Wall -Werror -Wpedantic -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600
 LFLAGS=-Wl,-Bsymbolic-functions -lncursesw -ltinfo
 
 
