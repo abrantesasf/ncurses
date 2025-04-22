@@ -1,22 +1,29 @@
-# Dan Gookin's Guide to Ncurses Programming
+# Criação de TUIs com Ncurses
 
-Este é um repositório para o estudo do livro "**Dan Gookin's Guide to Ncurses
-Programming**", de Dan Gookin, 1ª edição, publicado pela Wambooli Press, em 2017
-(existe uma edição mais nova publicada em 2025).
+Este é um repositório para o estudo de diversos materiais a respeito da criação
+de TUIs (Text-Based User Interface) com a biblioteca Ncurses.
 
-Por quê? Porque eu não aguento mais interfaces e frameworks complicados para
-aplicações extremamente simples, que não precisam mais do que apenas o terminal
-de comandos com uma boa TUI (Text User Interface).
+Nos tempos atuais de domínio absoluto de interfaces web e mobile, por que ainda
+criar TUIs? Especialmente para mim porque eu não aguento mais interfaces e
+frameworks complicados para aplicações extremamente simples, que não precisam
+mais do que apenas o terminal de comandos com uma boa TUI. Além disso uma TUI é
+leve, pode ser utilizada via SSH e me permite um grau de controle (ainda que
+limitado) do que a interface poderá fazer.
 
-Aqui está uma imagem da capa do livro:
+Organizei esse repositório em diretórios da seguinte maneira:
 
-![Capa do livro: Dan Gookin's Guide to Ncurses
-Programming](https://github.com/abrantesasf/ncurses/blob/master/imagens/gookins_ncurses_298x400.jpg)
+* `docs`: diretório com a documentação oficial da Ncurses, baixada diretamente
+  do site oficial de desenvolvimento;
+* `gookin`: diretório para o estudo do livro "**Dan Gookin's Guide to Ncurses
+  Programming**";
+* `gpt`: alguns documentos PDF de chats com inteligências artificiais (GPT e
+  Grok), basicamente para o esclarecimento de algumas dúvidas;
+* `imagens`: imagens dos livros aqui estudados;
+* `padala`: diretório para o estudo do "**Ncurses Programming HowTo**";
+* `raymond`: diretório para o estudo do "**Writing Programs with Ncurses**" e do
+  "**A Hacker's Guide to Ncurses**".
 
-Recursos do livro (errata, códigos, etc.) podem ser encontrados na [página
-oficial do autor](https://c-for-dummies.com/ncurses/).
-
-O código fonte oficial pode ser obtido em [NCURSES: New
+O código fonte oficial pode ser obtido no site oficial da [NCURSES: New
 Curses](https://invisible-island.net/ncurses/ncurses.html).
 
 A programação em modo texto ainda não está morta!
